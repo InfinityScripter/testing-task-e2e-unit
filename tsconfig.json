@@ -9,11 +9,10 @@
         "jsx": "react",
         "moduleResolution": "node"
     },
-    "include": [
-        "src"
-    ],
+    "include": ["src"],
     "ts-node": {
         "compilerOptions": {
+            "types": ["@types/jest", "node"],
             "module": "CommonJS"
         }
     }
